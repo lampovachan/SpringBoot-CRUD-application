@@ -1,0 +1,4 @@
+org\tkachuk\springboot\DemoApplication.class
+org\tkachuk\springboot\repositories\BakeryProductsRepository.class
+org\tkachuk\springboot\entities\BakeryProduct.class
+org\tkachuk\springboot\controllers\BakeryProductsController.class

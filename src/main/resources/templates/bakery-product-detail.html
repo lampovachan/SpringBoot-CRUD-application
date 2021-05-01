@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Title</title>
+</head>
+<body>
+<h2 class="my-5">Sweet Bon Bakery Products</h2>
+<table border="1">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Type Of Product</th>
+        <th>Price</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr  th:object="${bakeryProduct}">
+        <td th:text="${bakeryProduct.name}"></td>
+        <td th:text="${bakeryProduct.typeOfProducts}"></td>
+        <td th:text="${bakeryProduct.price}"></td>
+        <td><a th:href="@{/edit/{id}(id=${bakeryProduct.id})}">EDIT</a></td>
+        <td><a th:href="@{/delete/{id}(id=${bakeryProduct.id})}">DELETE</a></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
