@@ -1,4 +1,4 @@
-SpringBoot Crud application with Docker, PostgreSQL and Redis
+SpringBoot CRUD application with Docker, PostgreSQL and Redis
 
 1. Program saves data about bakery products.
 2. CRUD operations are implemented.
