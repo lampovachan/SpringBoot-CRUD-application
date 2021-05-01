@@ -5,3 +5,4 @@ SpringBoot CRUD application with Docker, PostgreSQL and Redis
 3. Redis caching are implemented.
 4. PostgreSQL is used to save database. 
 5. Cache lifetime is 15 minutes.
+6. dockerfile amd docker-compose are used to run app in Docker container.
